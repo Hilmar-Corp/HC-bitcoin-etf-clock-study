@@ -1,0 +1,94 @@
+{
+  "artifact_count": 17,
+  "artifacts": [
+    {
+      "bytes": 172803,
+      "path": "artifacts/figures/final_01_pre_post_intraday_volume.png",
+      "sha256": "c486ed65735c6f48e062b8ca5d784914192be3860cda96fc8c9c03453df2da9a"
+    },
+    {
+      "bytes": 180745,
+      "path": "artifacts/figures/final_02_etf_turnover_intraday_volume.png",
+      "sha256": "162dc5421e04117bff6f874c1b5d62164e8e562c9c3eccb838b1dc6ca4a8004a"
+    },
+    {
+      "bytes": 95653,
+      "path": "artifacts/figures/final_03_detrended_turnover_deciles.png",
+      "sha256": "ddc835f14cc5f57c423f98bd4fccb6c6418cc994d5bfd8d690c69e1c4284730e"
+    },
+    {
+      "bytes": 994,
+      "path": "artifacts/tables/detrended_residual_correlations.csv",
+      "sha256": "c6ea51309c7f699e05f010524fec90668633b136a12653b4a551b4260e7c8aba"
+    },
+    {
+      "bytes": 1691,
+      "path": "artifacts/tables/detrended_turnover_regressions.csv",
+      "sha256": "ba4d1c60211b52c2a4ee2e51c68930fa6db20a6339986798c4764fadbc62baf1"
+    },
+    {
+      "bytes": 1071,
+      "path": "artifacts/tables/etf_activity_log_ratio.csv",
+      "sha256": "11bb8725d1a39b6867c1e26e4592115cdc13a4cec50e9e44ecc616cf6a7cd886"
+    },
+    {
+      "bytes": 5439,
+      "path": "artifacts/tables/etf_activity_vs_btc_us_clock.csv",
+      "sha256": "7ba11a229f64366cf11fbc8c19f7d500fdd8d71fd806129815f7a07b757888f0"
+    },
+    {
+      "bytes": 427,
+      "path": "artifacts/tables/etf_turnover_time_trend.csv",
+      "sha256": "b0c298092433678538dce2e3dafb36dddc5802deaa14a0258c9ba6cd07b795e2"
+    },
+    {
+      "bytes": 248,
+      "path": "artifacts/tables/excluded_sessions.csv",
+      "sha256": "086ce5b412d6af0335758e751bf3aad23a2b21520649085b95ff2cd2a2bb876f"
+    },
+    {
+      "bytes": 1621,
+      "path": "artifacts/tables/final_intraday_turnover_hourly.csv",
+      "sha256": "471d1df2337c3519a6e828ecd6f0e468c758a53b8f3bff20a1e68b124bc03d88"
+    },
+    {
+      "bytes": 1291,
+      "path": "artifacts/tables/first_difference_tests.csv",
+      "sha256": "af0ac2a5875b5729174d5854266f6db0ffa99e4844fd9bbd7c0a49ffa9ba207d"
+    },
+    {
+      "bytes": 633,
+      "path": "artifacts/tables/interrupted_time_series.csv",
+      "sha256": "7824caa8589772c4cfdbd921a043e76cb9f5273ae6b2372f0f0452110b04e240"
+    },
+    {
+      "bytes": 30622,
+      "path": "artifacts/tables/matched_placebo_breakpoints_v2.csv",
+      "sha256": "cb330cac57f5b1ec8fad59518f2e35b3719b51a4098903adaba4fcd08888d626"
+    },
+    {
+      "bytes": 2060,
+      "path": "artifacts/tables/matched_placebo_summary_v2.csv",
+      "sha256": "1a9eba03c113231d3ea368ed5aaecc94ac9431f0e712f5754f612d5fba795aac"
+    },
+    {
+      "bytes": 1822,
+      "path": "artifacts/tables/pre_post_final.csv",
+      "sha256": "eaab8f6cf9ddcbcb5a7514456f71a9e9054f98db123f53b5e6f5f12bdf203e87"
+    },
+    {
+      "bytes": 1609,
+      "path": "artifacts/tables/weekly_etf_clock_tests.csv",
+      "sha256": "7d637fb26898fbc5d84c1f675d76c3098322f241fe68df21ecf77af074faeec6"
+    },
+    {
+      "bytes": 2404,
+      "path": "artifacts/tables/window_robustness.csv",
+      "sha256": "b572de7b15222fecd56926876c7dc698676dca8e46871cffa049c731768e7356"
+    }
+  ],
+  "publication_date": "2026-08-19",
+  "repository": "Hilmar-Corp/HC-bitcoin-etf-clock-study",
+  "study_id": "HILMARCORP-BITCOIN-ETF-CLOCK",
+  "version": "1.0.0"
+}

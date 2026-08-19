@@ -1,0 +1,9 @@
+x,metric,spearman_rho,p_value,n,residualized_against
+log_turnover,lr_volume,0.1557831905909297,0.00046599524847292965,501,linear_time;quadratic_time;weekday_fixed_effects
+log_turnover,lr_trades,-0.027990839039053368,0.5319203370910587,501,linear_time;quadratic_time;weekday_fixed_effects
+log_turnover,lr_variance,0.012161175656654819,0.7859803073132601,501,linear_time;quadratic_time;weekday_fixed_effects
+log_turnover,lr_abs_return,0.0613118305222225,0.1706226444766213,501,linear_time;quadratic_time;weekday_fixed_effects
+log_abs_flow,lr_volume,0.030229262590357138,0.4996207209596352,501,linear_time;quadratic_time;weekday_fixed_effects
+log_abs_flow,lr_trades,-0.04022568408998736,0.3689257932238621,501,linear_time;quadratic_time;weekday_fixed_effects
+log_abs_flow,lr_variance,-0.01550349500202782,0.7292155702605235,501,linear_time;quadratic_time;weekday_fixed_effects
+log_abs_flow,lr_abs_return,0.005296753107331155,0.9058600121775624,501,linear_time;quadratic_time;weekday_fixed_effects

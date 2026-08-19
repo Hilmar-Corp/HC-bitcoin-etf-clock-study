@@ -1,0 +1,44 @@
+{
+  "controls": {
+    "clean_room_environment": {
+      "pip_check": "PASS",
+      "pytest": "26/26 PASS",
+      "python": "3.13.0",
+      "ruff": "PASS",
+      "status": "PASS"
+    },
+    "dependency_inventory": "PASS",
+    "etf_offline_semantic_replay": {
+      "atol": 1e-12,
+      "finding": "DR-001",
+      "rtol": 1e-12,
+      "status": "PASS"
+    },
+    "hashed_dependency_locks": "PASS",
+    "lock_semantic_determinism": {
+      "dev_semantic_sha256": "af442784567a45015b2bec549307a37b49c4d2b1ff6e6037185005cb7e920b41",
+      "runtime_semantic_sha256": "6b0adb50c794e6b79c39e90e1cd792388a2c9ca76c8df6ceb3edb42e9dc1bb5d",
+      "status": "PASS"
+    },
+    "pip_check": "PASS",
+    "pytest_local": {
+      "failed": 0,
+      "passed": 26,
+      "status": "PASS"
+    },
+    "repository_contract": "PASS",
+    "ruff_canonical_and_tests": "PASS",
+    "scientific_baseline_frozen": "PASS"
+  },
+  "decision": "PASS",
+  "external_certification": false,
+  "known_findings": {
+    "DR-001": {
+      "assessment": "The historical ETF raw cache is CSV. Re-reading decimal values introduces differences at approximately machine precision. Maximum observed relative replay difference was below approximately 4.4e-16. Downstream aggregate and master research outputs reproduced.",
+      "status": "ACCEPTED",
+      "title": "Historical ETF CSV serialization precision"
+    }
+  },
+  "snapshot_date": "2026-08-19",
+  "study_id": "HILMARCORP-BITCOIN-ETF-CLOCK"
+}

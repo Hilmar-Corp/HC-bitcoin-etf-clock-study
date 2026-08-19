@@ -1,0 +1,51 @@
+{
+  "bitcoin_frequency": "5m",
+  "inference_scope": "descriptive_and_exploratory_quasi_experimental",
+  "post_etf_activity_variables": [
+    "etf_net_flow_musd",
+    "abs_etf_flow_musd",
+    "etf_turnover_proxy_usd",
+    "log_etf_turnover"
+  ],
+  "primary_asset": "Bitcoin",
+  "primary_bitcoin_market": "Binance Spot BTCUSDT",
+  "primary_design_rules": {
+    "dst_aware": true,
+    "early_closes_respected": true,
+    "etf_flow_distinct_from_institutional_flow": true,
+    "event_assignment_by_nyse_session_date": true,
+    "fail_closed_on_session_geometry_error": true,
+    "holidays_respected": true,
+    "net_flow_distinct_from_market_turnover": true,
+    "no_interpolation": true,
+    "true_nyse_calendar": true
+  },
+  "primary_metrics": [
+    "us_volume_share",
+    "us_trade_share",
+    "us_variance_share",
+    "us_abs_return_share"
+  ],
+  "prohibited_interpretations": [
+    "claiming that ETF launch causally produced the observed change",
+    "describing ETF net flow as generic institutional flow",
+    "representing the ETF turnover proxy as exact dollar trading volume",
+    "representing a same-day association as predictive",
+    "generalizing Binance-only Bitcoin evidence to every Bitcoin venue without qualification",
+    "claiming a clean instantaneous structural break on January 11 2024"
+  ],
+  "research_question": "Did Bitcoin activity become more concentrated during US market hours after the launch of US spot Bitcoin ETFs, and is that concentration associated with ETF trading activity?",
+  "sample": {
+    "end": "2026-01-10",
+    "event_session_date": "2024-01-11",
+    "excluded_nyse_sessions": [
+      "2023-03-24"
+    ],
+    "post_nyse_sessions": 501,
+    "pre_nyse_sessions": 501,
+    "start": "2022-01-11"
+  },
+  "status": "FROZEN_PUBLICATION_CANDIDATE",
+  "study_id": "HILMARCORP-BITCOIN-ETF-CLOCK",
+  "version": "1.0.0"
+}

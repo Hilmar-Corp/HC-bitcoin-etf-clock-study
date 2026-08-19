@@ -1,0 +1,41 @@
+[tool.pytest.ini_options]
+minversion = "8"
+testpaths = ["tests"]
+addopts = [
+  "-ra",
+  "--strict-markers",
+  "--strict-config",
+]
+markers = [
+  "data: tests requiring local research datasets",
+  "slow: comparatively expensive validation tests",
+  "regression: frozen numerical non-regression tests",
+]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+exclude = [
+  ".venv",
+  "audit/baseline_v1/files",
+]
+
+[tool.ruff.lint]
+select = [
+  "E",
+  "F",
+  "W",
+  "I",
+  "B",
+  "UP",
+  "SIM",
+]
+ignore = []
+
+[tool.coverage.run]
+branch = true
+source = ["src"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false

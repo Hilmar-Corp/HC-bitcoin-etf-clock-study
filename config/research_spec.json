@@ -1,0 +1,47 @@
+{
+  "btc_end_utc_exclusive": "2026-01-11T00:00:00Z",
+  "btc_frequency": "5m",
+  "btc_start_utc_inclusive": "2022-01-11T00:00:00Z",
+  "btc_symbol": "BTCUSDT",
+  "btc_venue": "Binance Spot",
+  "causal_identification_claim": false,
+  "event_session_date": "2024-01-11",
+  "exchange_calendar": "NYSE",
+  "excluded_session_dates": [
+    "2023-03-24"
+  ],
+  "flow_source": "Farside Investors",
+  "inference": {
+    "block_bootstrap_primary_block_sessions": 10,
+    "block_bootstrap_seed": 42,
+    "causal_identification_claim": false,
+    "hac_primary_maxlags": 10
+  },
+  "instantaneous_etf_launch_break_supported": false,
+  "market_data_acquisition": "yfinance",
+  "net_etf_flows_daily_mechanism_supported": false,
+  "no_interpolation": true,
+  "post_sessions_final": 501,
+  "pre_sessions_final": 501,
+  "publication_constraints": {
+    "causal_wording_allowed": false,
+    "instantaneous_etf_launch_break_supported": false,
+    "net_etf_flows_daily_mechanism_supported": false,
+    "same_day_etf_turnover_volume_association_supported": true
+  },
+  "same_day_etf_turnover_volume_association_supported": true,
+  "sample": {
+    "btc_end_utc_exclusive": "2026-01-11T00:00:00Z",
+    "btc_start_utc_inclusive": "2022-01-11T00:00:00Z",
+    "event_session_date": "2024-01-11",
+    "exchange_calendar": "NYSE",
+    "post_sessions_final": 501,
+    "pre_sessions_final": 501,
+    "timezone_market": "America/New_York",
+    "timezone_source": "UTC"
+  },
+  "schema_version": 1,
+  "study_id": "bitcoin_etf_clock",
+  "timezone_market": "America/New_York",
+  "turnover_definition": "share_volume * ((high + low + close) / 3)"
+}

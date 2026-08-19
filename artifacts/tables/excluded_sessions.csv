@@ -1,0 +1,2 @@
+date,period,market_open,market_close,expected_us_bars,us_bars,bar_diff,reason
+2023-03-24,pre_etf,2023-03-24 13:30:00+00:00,2023-03-24 20:00:00+00:00,78.0,72,-6.0,Unique source-data gap >5m; session and 24h denominator incomplete; no interpolation.

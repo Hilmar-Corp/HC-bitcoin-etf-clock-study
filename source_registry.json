@@ -1,0 +1,57 @@
+{
+  "sources": [
+    {
+      "acquisition_script": "src/download_binance.py",
+      "dataset": "BTCUSDT spot 5-minute bars",
+      "implementation_url_literal": "https://data.binance.vision/data/spot/monthly/klines",
+      "name": "Binance",
+      "redistribution_status": "RAW_DATA_NOT_REDISTRIBUTED",
+      "role": "primary Bitcoin activity source"
+    },
+    {
+      "controls": [
+        "holidays",
+        "early_closes",
+        "DST"
+      ],
+      "dataset": "NYSE trading schedule",
+      "name": "NYSE calendar",
+      "provider": "pandas_market_calendars",
+      "role": "US cash-session definition"
+    },
+    {
+      "acquisition_script": "src/download_etf_flows.py",
+      "dataset": "daily US spot Bitcoin ETF flows",
+      "implementation_url_literal": "https://farside.co.uk/bitcoin-etf-flow-all-data/",
+      "interpretation_constraint": "not a generic institutional-flow measure",
+      "name": "Farside Investors",
+      "redistribution_status": "RAW_DATA_NOT_REDISTRIBUTED",
+      "role": "secondary-source ETF creation/redemption proxy"
+    },
+    {
+      "acquisition_script": "src/build_etf_master_panel.py",
+      "dataset": "US spot Bitcoin ETF daily OHLCV observations",
+      "known_unavailable_market_cache": [
+        "MSBT"
+      ],
+      "name": "Yahoo Finance via yfinance",
+      "redistribution_status": "RAW_DATA_NOT_REDISTRIBUTED",
+      "role": "secondary-market turnover proxy",
+      "source_quality_note": "Secondary/non-authoritative market-data source. Institutional publication should validate material market observations against an official or licensed source where required.",
+      "validated_market_tickers": [
+        "IBIT",
+        "FBTC",
+        "BITB",
+        "ARKB",
+        "BTCO",
+        "EZBC",
+        "BRRR",
+        "HODL",
+        "BTCW",
+        "GBTC",
+        "BTC"
+      ]
+    }
+  ],
+  "study_id": "HILMARCORP-BITCOIN-ETF-CLOCK"
+}

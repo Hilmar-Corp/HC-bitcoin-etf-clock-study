@@ -1,0 +1,10 @@
+lxml
+matplotlib
+numpy
+pandas
+pandas-market-calendars
+pyarrow
+requests
+scipy
+statsmodels
+yfinance

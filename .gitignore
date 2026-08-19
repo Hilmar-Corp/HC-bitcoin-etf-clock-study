@@ -1,0 +1,35 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Third-party research data
+data/
+
+# Mutable analytical workspace
+outputs/
+audit/
+
+# Local environment snapshots
+requirements/environment.freeze.txt
+
+# Logs
+*.log

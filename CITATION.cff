@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this research repository, please cite it."
+title: "Bitcoin ETF Clock Study"
+type: software
+authors:
+  - name: "HilmarCorp SAS"
+repository-code: "https://github.com/Hilmar-Corp/HC-bitcoin-etf-clock-study"
+url: "https://github.com/Hilmar-Corp/HC-bitcoin-etf-clock-study"
+license: "Apache-2.0"
+version: "1.0.0"
+date-released: "2026-08-19"
+abstract: "Reproducible empirical study of Bitcoin activity concentration during US market hours and its relationship with US spot Bitcoin ETF trading."
+keywords:
+  - bitcoin
+  - bitcoin-etf
+  - quantitative-research
+  - market-microstructure
+  - reproducible-research
