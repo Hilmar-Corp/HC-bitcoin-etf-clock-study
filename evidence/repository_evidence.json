@@ -11,7 +11,7 @@
     "Makefile": "92279d43c806e010b9079ad1a284f2b11e94545e54b547c5ed7ba61e3b4b4e1e",
     "NOTICE": "5ba025e30910646866fb74ad7b4c22d74dc9bfd5e8b118b275268a7193847a4f",
     "PUBLICATION_MANIFEST.json": "b3aa33cd5c8229340e3419ed493da4097212839c6033657d9a502122382de2da",
-    "README.md": "7a6911ec96e0c3f4a3f04852e23d42bb0b7b801187e2a8bec5c83c3e378284a1",
+    "README.md": "a2628501a804931ef5941b0caf81f2e61b05402464ae87538c67570cad21a5fe",
     "REPRODUCIBILITY.md": "05ec20b53d81eff885e4f296bf784cedc5f0385fc69f7ef7879f2218de9a1908",
     "RESEARCH_ASSURANCE.md": "b12c6be4b66d12b5c9102afa0d1096adfdf9e749b3c754c4ade6265fe4916eb9",
     "artifacts/figures/final_01_pre_post_intraday_volume.png": "c486ed65735c6f48e062b8ca5d784914192be3860cda96fc8c9c03453df2da9a",
@@ -78,7 +78,7 @@
     "tests/test_source_gap.py": "3f66ae60461f5cac34732d4eef9b54af00aea56ca85c098f40a1cc8c5f6f85cc",
     "tests_public/test_publication_snapshot.py": "437e2b668f3043e709a86dac31891ee783cb8595bf3fadcd1e6b9248e0872dba"
   },
-  "frozen_at_utc": "2026-08-19T17:16:16.242902+00:00",
+  "frozen_at_utc": "2026-08-19T17:24:20.024749+00:00",
   "schema_version": 1,
   "study_id": "HILMARCORP-BITCOIN-ETF-CLOCK"
 }
