@@ -37,6 +37,10 @@ EVIDENCE_PATH = (
     "evidence/repository_evidence.json"
 )
 
+LOCAL_ONLY_EXCLUSIONS = {
+    "requirements/environment.freeze.txt",
+}
+
 
 def controlled_files(
     root: Path,
@@ -62,6 +66,9 @@ def controlled_files(
             rel = path.relative_to(root)
 
             if str(rel) == EVIDENCE_PATH:
+                continue
+
+            if str(rel) in LOCAL_ONLY_EXCLUSIONS:
                 continue
 
             if "__pycache__" in rel.parts:

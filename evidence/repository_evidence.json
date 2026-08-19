@@ -1,5 +1,5 @@
 {
-  "controlled_file_count": 77,
+  "controlled_file_count": 76,
   "files": {
     ".github/workflows/research-assurance.yml": "232ab1c1d3f14164d952dbfe82c1e1352f910ea87f70ff6db0c1e0b57402e478",
     ".gitignore": "ba04c50bac0534d8fdc568f242e336d41e6b7dd2c4d302461ae5dd467040e0d9",
@@ -41,7 +41,6 @@
     "requirements/dev.in": "c5ed0ee5810317709f69f52da1d3a8ae048c86d3351985cebeaff3216f56613c",
     "requirements/dev.lock.in": "953e9d14e35f16affd97da86c8df715eec5b30455b774f8a1ffd19ddcfcf7377",
     "requirements/dev.lock.txt": "31b24fe05b155ccff71ae6c64bbef84f34297fa15fbdf8e575458c09544a04b7",
-    "requirements/environment.freeze.txt": "4ab3f91c55bff4d4c7d08c72f8a8f6b3f16cf124ef8161aafd4bac431634598e",
     "requirements/lock-tool.txt": "2bc0c58df94e683d50a44f3bf6dd1cb7d5776d70d806cf12084c969bbc3618af",
     "requirements/runtime.direct.lock": "fb5c5fb1853e8df486a6cfd79a3417e3a51261a3cb312a0ae22c43780d695d4a",
     "requirements/runtime.in": "854c2185d58dc67c4aa456c6ff40fb5b35000055eded3b1d61ab82c3276b3d5f",
@@ -51,7 +50,7 @@
     "scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "scripts/research/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "scripts/research/freeze_repository_evidence.py": "82f6011dd1154aefad0eb4ec080738e904846c6a5a3c5958aef8ef5dbc576dc8",
-    "scripts/research/repository_control.py": "1962e4b0ec932481ab5c7db1437d42baeb4baff033add95b6a98b6d0d7a55d60",
+    "scripts/research/repository_control.py": "4304f753b114fc18da121f0d524fb0a03ee8900217fa74297722cccc6784310c",
     "scripts/research/verify_repository.py": "49b6620caf9ad35e1cbec127ea688aa4f550f88bae3c74ff7feace1100310cca",
     "source_registry.json": "787db80c0260ed3aa4651a8676b52e96411a74673e64647ac30f38e4a7c82e09",
     "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -79,7 +78,7 @@
     "tests/test_source_gap.py": "3f66ae60461f5cac34732d4eef9b54af00aea56ca85c098f40a1cc8c5f6f85cc",
     "tests_public/test_publication_snapshot.py": "437e2b668f3043e709a86dac31891ee783cb8595bf3fadcd1e6b9248e0872dba"
   },
-  "frozen_at_utc": "2026-08-19T17:03:37.832029+00:00",
+  "frozen_at_utc": "2026-08-19T17:16:16.242902+00:00",
   "schema_version": 1,
   "study_id": "HILMARCORP-BITCOIN-ETF-CLOCK"
 }
