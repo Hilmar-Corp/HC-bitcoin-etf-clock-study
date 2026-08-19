@@ -1,6 +1,6 @@
 PYTHON ?= python
 
-.PHONY: install lint test-public verify test-local assurance assurance-local freeze-evidence
+.PHONY: install lint test-public verify quant-verify test-local assurance assurance-local freeze-evidence quant-dd-local
 
 install:
 	$(PYTHON) -m pip install --require-hashes -r requirements/dev.lock.txt
@@ -19,12 +19,24 @@ test-public:
 verify:
 	$(PYTHON) -m scripts.research.verify_repository
 
+quant-verify:
+	$(PYTHON) -m scripts.research.verify_quant_dd
+
 test-local:
 	$(PYTHON) -m pytest -q tests
 
 freeze-evidence:
 	$(PYTHON) -m scripts.research.freeze_repository_evidence
 
-assurance: lint test-public verify
+assurance: lint test-public verify quant-verify
 
 assurance-local: assurance test-local
+
+quant-dd-local:
+	$(PYTHON) -m scripts.research.coinbase_multivenue_sensitivity
+	$(PYTHON) -m scripts.research.validate_etf_volume_blackrock
+	$(PYTHON) -m scripts.research.analytical_core_coverage
+	$(PYTHON) -m scripts.research.build_final_assurance
+	$(PYTHON) -m scripts.research.freeze_repository_evidence
+	$(MAKE) assurance
+	$(MAKE) test-local

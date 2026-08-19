@@ -1,0 +1,70 @@
+{
+  "assurance_version": "2.0.0",
+  "checks": [
+    {
+      "detail": "17 frozen publication artifacts",
+      "name": "publication_artifact_manifest",
+      "required": true,
+      "status": "PASS"
+    },
+    {
+      "detail": "line=98.35% branch=91.53%",
+      "name": "analytical_core_coverage",
+      "required": true,
+      "status": "PASS"
+    },
+    {
+      "detail": "Binance/Coinbase cross-venue sensitivity",
+      "name": "coinbase_multi_venue_sensitivity",
+      "required": true,
+      "status": "PASS"
+    },
+    {
+      "detail": "IBIT official issuer volume vs yfinance current-date spot-check",
+      "name": "etf_market_source_spot_check",
+      "required": true,
+      "status": "PASS"
+    },
+    {
+      "detail": "Python 3.13.0 controlled dependency reconstruction",
+      "name": "clean_room_environment",
+      "required": true,
+      "status": "PASS"
+    },
+    {
+      "detail": "transitive dependency hash controls",
+      "name": "hashed_dependency_locks",
+      "required": true,
+      "status": "PASS"
+    },
+    {
+      "detail": "strict numerical replay of ETF local cache",
+      "name": "etf_offline_semantic_replay",
+      "required": true,
+      "status": "PASS"
+    },
+    {
+      "detail": "5 passed",
+      "name": "public_tests",
+      "required": true,
+      "status": "PASS"
+    },
+    {
+      "detail": "26 passed",
+      "name": "local_research_tests",
+      "required": true,
+      "status": "PASS"
+    },
+    {
+      "detail": "No broken requirements found.",
+      "name": "pip_check",
+      "required": true,
+      "status": "PASS"
+    }
+  ],
+  "decision": "PASS",
+  "failed_required_controls": [],
+  "passed_required_controls": 10,
+  "required_controls": 10,
+  "study_id": "HILMARCORP-BITCOIN-ETF-CLOCK"
+}

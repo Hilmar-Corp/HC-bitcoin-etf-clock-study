@@ -1,0 +1,26 @@
+{
+  "avg_30_relative_difference": 0.017959801144760607,
+  "control": "ETF_MARKET_SOURCE_SPOT_CHECK",
+  "daily_volume_relative_difference": 0.003736163791947256,
+  "decision": "PASS",
+  "instrument": "IBIT",
+  "interpretation": "Independent issuer-level spot validation of the market-volume field used by the secondary yfinance acquisition layer. Production asset-management usage should use an appropriately licensed market-data source.",
+  "issuer": "BlackRock / iShares",
+  "official_30d_avg_volume": 33917135.0,
+  "official_daily_volume": 28668711.0,
+  "official_date": "2026-08-18",
+  "official_exchange": "NASDAQ",
+  "official_source_url": "https://www.ishares.com/us/products/333011/ishares-bitcoin-trust-etf",
+  "required_checks": {
+    "daily_volume_relative_difference_le_1pct": true,
+    "exchange_is_nasdaq": true,
+    "issuer_page_resolved": true,
+    "official_daily_volume_positive": true,
+    "yfinance_daily_volume_positive": true
+  },
+  "scope": "Current-date source spot-check. This control does not claim full historical vendor validation.",
+  "secondary_source": "Yahoo Finance via yfinance",
+  "study_id": "HILMARCORP-BITCOIN-ETF-CLOCK",
+  "yfinance_30_session_avg_volume": 34526280.0,
+  "yfinance_daily_volume": 28561600.0
+}

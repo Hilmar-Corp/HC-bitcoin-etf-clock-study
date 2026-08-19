@@ -1,0 +1,67 @@
+{
+  "aggregate": {
+    "branch_coverage_pct": 91.52542372881356,
+    "branches": 118,
+    "covered_branches": 108,
+    "covered_statements": 775,
+    "line_coverage_pct": 98.3502538071066,
+    "statements": 788
+  },
+  "control": "ANALYTICAL_CORE_COVERAGE",
+  "decision": "PASS",
+  "files": {
+    "src/analysis_01_pre_post_final.py": {
+      "branch_coverage_pct": 100.0,
+      "branches": 8,
+      "covered_branches": 8,
+      "covered_statements": 89,
+      "line_coverage_pct": 100.0,
+      "statements": 89
+    },
+    "src/analysis_02_etf_activity.py": {
+      "branch_coverage_pct": 100.0,
+      "branches": 28,
+      "covered_branches": 28,
+      "covered_statements": 148,
+      "line_coverage_pct": 100.0,
+      "statements": 148
+    },
+    "src/analysis_03_robustness.py": {
+      "branch_coverage_pct": 94.44444444444444,
+      "branches": 18,
+      "covered_branches": 17,
+      "covered_statements": 162,
+      "line_coverage_pct": 99.38650306748467,
+      "statements": 163
+    },
+    "src/analysis_04a_persist_core.py": {
+      "branch_coverage_pct": 96.66666666666667,
+      "branches": 30,
+      "covered_branches": 29,
+      "covered_statements": 191,
+      "line_coverage_pct": 99.47916666666667,
+      "statements": 192
+    },
+    "src/analysis_04b_placebos.py": {
+      "branch_coverage_pct": 65.0,
+      "branches": 20,
+      "covered_branches": 13,
+      "covered_statements": 70,
+      "line_coverage_pct": 86.41975308641975,
+      "statements": 81
+    },
+    "src/analysis_05_final_figures.py": {
+      "branch_coverage_pct": 92.85714285714286,
+      "branches": 14,
+      "covered_branches": 13,
+      "covered_statements": 115,
+      "line_coverage_pct": 100.0,
+      "statements": 115
+    }
+  },
+  "study_id": "HILMARCORP-BITCOIN-ETF-CLOCK",
+  "thresholds": {
+    "branch_coverage_pct_min": 80.0,
+    "line_coverage_pct_min": 90.0
+  }
+}

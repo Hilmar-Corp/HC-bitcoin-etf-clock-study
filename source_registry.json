@@ -1,4 +1,22 @@
 {
+  "independent_validation": [
+    {
+      "documentation": "https://docs.cdp.coinbase.com/api-reference/exchange-api/rest-api/products/get-product-candles",
+      "frequency": "5m",
+      "market": "BTC-USD",
+      "name": "Coinbase Exchange",
+      "raw_public_git": false,
+      "role": "independent full-window Bitcoin venue sensitivity"
+    },
+    {
+      "instrument": "IBIT",
+      "name": "BlackRock / iShares",
+      "raw_public_git": false,
+      "role": "official issuer current-date market-volume spot-check",
+      "source": "https://www.ishares.com/us/products/333011/ishares-bitcoin-trust-etf",
+      "validation_scope": "current-date spot-check only; not full historical vendor certification"
+    }
+  ],
   "sources": [
     {
       "acquisition_script": "src/download_binance.py",

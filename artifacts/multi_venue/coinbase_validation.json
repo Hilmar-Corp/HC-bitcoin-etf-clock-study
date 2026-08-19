@@ -1,0 +1,42 @@
+{
+  "binance_coinbase_volume_share_spearman": {
+    "n": 999,
+    "p_value": 2.1350344306463601e-165,
+    "rho": 0.7276402534799327
+  },
+  "control": "COINBASE_MULTI_VENUE_SENSITIVITY",
+  "decision": "PASS",
+  "directional_sign_matches": {
+    "matched": 3,
+    "total": 3
+  },
+  "frequency": "5m",
+  "required_checks": {
+    "cross_venue_daily_volume_rho_gt_035": true,
+    "directional_consistency_2_of_3": true,
+    "positive_volume_shift": true,
+    "post_sessions_at_least_490": true,
+    "pre_sessions_at_least_490": true,
+    "volume_shift_mw_p_lt_005": true
+  },
+  "sessions": {
+    "post": 500,
+    "pre": 499,
+    "quality_exclusions": [
+      {
+        "date": "2022-08-12",
+        "reason": "daily_bars=287"
+      },
+      {
+        "date": "2023-05-19",
+        "reason": "daily_bars=280"
+      },
+      {
+        "date": "2024-05-31",
+        "reason": "daily_bars=277"
+      }
+    ]
+  },
+  "source": "Coinbase Exchange BTC-USD",
+  "study_id": "HILMARCORP-BITCOIN-ETF-CLOCK"
+}

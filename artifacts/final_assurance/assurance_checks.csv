@@ -1,0 +1,11 @@
+name,required,status,detail
+publication_artifact_manifest,True,PASS,17 frozen publication artifacts
+analytical_core_coverage,True,PASS,line=98.35% branch=91.53%
+coinbase_multi_venue_sensitivity,True,PASS,Binance/Coinbase cross-venue sensitivity
+etf_market_source_spot_check,True,PASS,IBIT official issuer volume vs yfinance current-date spot-check
+clean_room_environment,True,PASS,Python 3.13.0 controlled dependency reconstruction
+hashed_dependency_locks,True,PASS,transitive dependency hash controls
+etf_offline_semantic_replay,True,PASS,strict numerical replay of ETF local cache
+public_tests,True,PASS,5 passed
+local_research_tests,True,PASS,26 passed
+pip_check,True,PASS,No broken requirements found.

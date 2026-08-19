@@ -506,3 +506,29 @@ This repository is provided for quantitative research and educational purposes.
 Nothing in this repository constitutes investment advice, a recommendation, a forecast, investment management, order execution, a solicitation, or an offer to buy or sell a financial instrument or digital asset.
 
 Historical observations are not indicative of future outcomes.
+
+## Quantitative due-diligence controls
+
+The controlled research package includes an additional institutional-review layer.
+
+It contains:
+
+- independent full-window Bitcoin venue sensitivity using Coinbase Exchange BTC-USD five-minute observations;
+- independent current-date IBIT market-volume spot-check against the official BlackRock/iShares issuer page;
+- executable analytical-core coverage measurement;
+- a consolidated fail-closed final assurance decision.
+
+Frozen controls are stored in:
+
+    artifacts/multi_venue/
+    artifacts/source_validation/
+    artifacts/coverage/
+    artifacts/final_assurance/
+
+The canonical consolidated decision is:
+
+    artifacts/final_assurance/consolidated_decision.json
+
+Network-dependent source validation is performed locally and frozen as controlled evidence.
+
+Public GitHub CI verifies the frozen result and its repository SHA-256 identity without redistributing the underlying third-party raw data.

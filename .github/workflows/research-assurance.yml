@@ -57,6 +57,9 @@ jobs:
       - name: Frozen repository evidence
         run: python -m scripts.research.verify_repository
 
+      - name: Quant DD frozen assurance
+        run: python -m scripts.research.verify_quant_dd
+
       - name: Upload assurance evidence
         if: always()
         uses: actions/upload-artifact@v4
@@ -67,3 +70,8 @@ jobs:
             PUBLICATION_MANIFEST.json
             evidence/repository_evidence.json
             evidence/research_assurance_snapshot.json
+            artifacts/coverage/analytical_core_summary.json
+            artifacts/multi_venue/coinbase_validation.json
+            artifacts/source_validation/blackrock_ibit_current_volume_validation.json
+            artifacts/final_assurance/consolidated_decision.json
+            artifacts/final_assurance/assurance_checks.csv

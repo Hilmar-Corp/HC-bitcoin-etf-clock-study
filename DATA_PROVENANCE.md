@@ -97,3 +97,21 @@ Complete raw and processed third-party market-data files are excluded from publi
 The public repository contains derived analytical tables, publication figures, code and evidence manifests.
 
 See `DATA_NOTICE.md`.
+
+## Independent validation sources
+
+### Coinbase Exchange
+
+Coinbase Exchange BTC-USD five-minute candles are used as an independent Bitcoin venue sensitivity layer.
+
+The raw Coinbase observations are retained outside public Git history.
+
+Only aggregate validation statistics are frozen in the public research package.
+
+### Nasdaq
+
+The official BlackRock/iShares IBIT page is used as an independent current-date validation anchor for the market-volume field.
+
+No BlackRock/iShares raw page snapshot is redistributed by this repository.
+
+The public artifact contains only the validation statistics, the source identity and the resulting assurance decision. This is a current-date spot-check, not a full historical vendor certification.
