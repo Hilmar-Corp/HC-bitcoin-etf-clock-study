@@ -90,7 +90,7 @@
     "tests/test_source_gap.py": "3f66ae60461f5cac34732d4eef9b54af00aea56ca85c098f40a1cc8c5f6f85cc",
     "tests_public/test_publication_snapshot.py": "437e2b668f3043e709a86dac31891ee783cb8595bf3fadcd1e6b9248e0872dba"
   },
-  "frozen_at_utc": "2026-08-19T17:48:22.240576+00:00",
+  "frozen_at_utc": "2026-08-19T17:52:56.203816+00:00",
   "schema_version": 1,
   "study_id": "HILMARCORP-BITCOIN-ETF-CLOCK"
 }
